@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.huawei.agconnect'
+apply from: 'scripts/productFlavor.gradle'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        minSdkVersion 17
+        targetSdkVersion 28
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+}
+
+dependencies {
+    //Push
+    compileOnly 'com.google.android.gms:play-services-base:17.1.0'
+    compileOnly 'com.google.android.gms:play-services-gcm:17.0.0'
+    compileOnly 'com.google.firebase:firebase-messaging:20.2.0'
+    compileOnly 'com.google.android.gms:play-services-basement:17.1.0'
+    compileOnly 'com.huawei.hms:hianalytics:5.0.4.300'
+    compileOnly 'com.huawei.hms:push:5.0.4.302'
+    compileOnly 'com.google.firebase:firebase-core:17.0.0'
+}

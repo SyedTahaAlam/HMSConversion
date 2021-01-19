@@ -1,0 +1,14 @@
+{
+	"client":{
+		"appType":"1",
+		"cp_id":"2640092000001999127",
+		"product_id":"736430079244785686",
+		"client_id":"542641647003894976",
+		"client_secret":"85401E0D013468667F205686AA25FC7CC6D564A469627A6FC8E8705F92453BAD",
+		"project_id":"736430079244785686",
+		"app_id":"103702927",
+		"api_key":"CgB6e3x9akkaS2XSs01/cs9wf+c7DM7IwOa5V+XMJz+bUE2148Le6aqCDXVpFe97UECwnm4ibKLq7eZU+XCkSjQl",
+		"package_name":"com.example.messageing.huawei"
+	},
+	"configuration_version":"1.0"
+}
